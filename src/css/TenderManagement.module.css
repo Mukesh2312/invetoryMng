@@ -1,0 +1,50 @@
+#tenderMng{
+    width: 80%;
+    max-width: 1920px;
+    margin: auto;
+}
+.tenderMngHeader{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 4rem;
+}
+.tenderHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchInputecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.selectStatusContainer{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.selectStatusContainer select{
+    font-size: 15px;
+    padding: 15px 80px 5px 3px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.createTenderBtnContainer button{
+    font-weight: 500;
+    background-color: #56AAC5;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    /* border: none;     */
+    cursor: pointer;
+}
+
+/* tender table container */
+
+/* tender table container */
